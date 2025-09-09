@@ -3,60 +3,136 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Enlaces de Interés - Qlliz</title>
+  <title>Directorio Jurídico - Qlliz</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f6f7;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7f9fb;
       color: #2c3e50;
-      padding: 20px;
+      margin: 0;
+      padding: 30px;
     }
     h1 {
       text-align: center;
       color: #1a252f;
+      margin-bottom: 10px;
+      font-size: 2rem;
     }
-    h2 {
+    p {
+      text-align: center;
+      color: #666;
+      margin-bottom: 40px;
+    }
+    .directory {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 25px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+    }
+    .card h2 {
+      font-size: 1.2rem;
       color: #34495e;
-      margin-top: 25px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #ecf0f1;
+      padding-bottom: 8px;
     }
     ul {
       list-style: none;
       padding: 0;
+      margin: 0;
     }
     li {
       margin: 12px 0;
-      padding: 10px;
-      background: #ecf0f1;
-      border-radius: 8px;
     }
     a {
       text-decoration: none;
-      color: #2980b9;
-      font-weight: bold;
+      color: #2c3e50;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      background: #ecf0f1;
+      border-radius: 8px;
+      transition: background 0.2s ease, color 0.2s ease;
     }
     a:hover {
-      text-decoration: underline;
-    }
-    .category {
-      margin-bottom: 25px;
+      background: #2980b9;
+      color: #fff;
     }
   </style>
 </head>
 <body>
 
-  <h1>Enlaces de Interés - Estudio Jurídico Qlliz</h1>
-  <p style="text-align:center; color:#555;">Actualizado: septiembre 2025</p>
+  <h1>Directorio Jurídico - Estudio Qlliz</h1>
+  <p>Enlaces de interés actualizados - Septiembre 2025</p>
 
-  <div class="category">
-    <h2>Instituciones y Consultas</h2>
-    <ul>
-      <li>⚖️ <a href="https://sut.trabajo.gob.ec/mrl/login.xhtml" target="_blank">Ministerio del Trabajo (SUT)</a></li>
-      <li>📑 <a href="https://consultas.funcionjudicial.gob.ec/informacionjudicialindividual/pages/index.jsf#!/" target="_blank">Información Judicial Individual</a></li>
-      <li>🛂 <a href="https://certificados.ministeriodelinterior.gob.ec/gestorcertificados/antecedentes/" target="_blank">Antecedentes Penales</a></li>
-      <li>🎖️ <a href="https://sidehu.midena.gob.ec/certificados/nofa.action" target="_blank">Certificado de Pertenecer a las Fuerzas Armadas</a></li>
-      <li>💼 <a href="https://srienlinea.sri.gob.ec/sri-en-linea/SriRucWeb/ConsultaRuc/Consultas/consultaRuc" target="_blank">Consulta RUC (SRI)</a></li>
-      <li>🏢 <a href="https://www.loja.gob.ec/consulta" target="_blank">Consulta Deudas Municipio de Loja</a></li>
-    </ul>
+  <div class="directory">
+
+    <div class="card">
+      <h2>Consultas Judiciales</h2>
+      <ul>
+        <li>⚖️ <a href="https://consultas.funcionjudicial.gob.ec/informacionjudicialindividual/pages/index.jsf#!/" target="_blank">Información Judicial Individual</a></li>
+        <li>📜 <a href="https://supa.funcionjudicial.gob.ec/pensiones/publico/consulta.jsf" target="_blank">Consulta SUPA (Pensiones)</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Seguridad y Certificados</h2>
+      <ul>
+        <li>🛂 <a href="https://certificados.ministeriodelinterior.gob.ec/gestorcertificados/antecedentes/" target="_blank">Antecedentes Penales</a></li>
+        <li>🎖️ <a href="https://sidehu.midena.gob.ec/certificados/nofa.action" target="_blank">Certificado Fuerzas Armadas</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Fiscalía y Denuncias</h2>
+      <ul>
+        <li>📢 <a href="https://www.fiscalia.gob.ec/accesibilidad/consulta-de-noticias-del-delito/" target="_blank">Consulta Denuncias Fiscalía</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Tránsito y Transporte</h2>
+      <ul>
+        <li>🚗 <a href="https://consultaweb.ant.gob.ec/PortalWEB/paginas/clientes/clp_criterio_consulta.jsp" target="_blank">Consulta Citaciones ANT</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Empresas y Tributos</h2>
+      <ul>
+        <li>💼 <a href="https://srienlinea.sri.gob.ec/sri-en-linea/SriRucWeb/ConsultaRuc/Consultas/consultaRuc" target="_blank">Consulta RUC (SRI)</a></li>
+        <li>🏢 <a href="https://appscvsgen.supercias.gob.ec/consultaCompanias/societario/busquedaCompanias.jsf" target="_blank">Superintendencia de Compañías</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Municipios</h2>
+      <ul>
+        <li>🌐 <a href="https://www.loja.gob.ec/consulta" target="_blank">Consulta Deudas Municipio Loja</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Ministerio del Trabajo</h2>
+      <ul>
+        <li>📝 <a href="https://sut.trabajo.gob.ec/mrl/login.xhtml" target="_blank">SUT - Ministerio del Trabajo</a></li>
+      </ul>
+    </div>
+
   </div>
 
 </body>
