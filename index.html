@@ -7,46 +7,48 @@
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f7f9fb;
-      color: #2c3e50;
+      background: #121212;
+      color: #e0e0e0;
       margin: 0;
-      padding: 30px;
+      padding: 20px;
     }
     h1 {
       text-align: center;
-      color: #1a252f;
-      margin-bottom: 10px;
-      font-size: 2rem;
+      color: #ffffff;
+      margin-bottom: 5px;
+      font-size: 1.8rem;
+      font-weight: 600;
     }
     p {
       text-align: center;
-      color: #666;
-      margin-bottom: 40px;
+      color: #aaa;
+      margin-bottom: 25px;
+      font-size: 0.9rem;
     }
     .directory {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 25px;
-      max-width: 1200px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 15px;
+      max-width: 1100px;
       margin: 0 auto;
     }
     .card {
-      background: #ffffff;
-      padding: 20px;
-      border-radius: 16px;
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+      background: #1e1e1e;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
     .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);
     }
     .card h2 {
-      font-size: 1.2rem;
-      color: #34495e;
-      margin-bottom: 15px;
-      border-bottom: 2px solid #ecf0f1;
-      padding-bottom: 8px;
+      font-size: 1rem;
+      color: #66aaff;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 6px;
     }
     ul {
       list-style: none;
@@ -54,22 +56,23 @@
       margin: 0;
     }
     li {
-      margin: 12px 0;
+      margin: 8px 0;
     }
     a {
       text-decoration: none;
-      color: #2c3e50;
-      font-weight: 600;
+      color: #e0e0e0;
+      font-weight: 500;
       display: flex;
       align-items: center;
-      gap: 8px;
-      padding: 10px 14px;
-      background: #ecf0f1;
-      border-radius: 8px;
+      gap: 6px;
+      padding: 8px 12px;
+      background: #2a2a2a;
+      border-radius: 6px;
       transition: background 0.2s ease, color 0.2s ease;
+      font-size: 0.9rem;
     }
     a:hover {
-      background: #2980b9;
+      background: #66aaff;
       color: #fff;
     }
   </style>
@@ -94,6 +97,7 @@
       <ul>
         <li>🛂 <a href="https://certificados.ministeriodelinterior.gob.ec/gestorcertificados/antecedentes/" target="_blank">Antecedentes Penales</a></li>
         <li>🎖️ <a href="https://sidehu.midena.gob.ec/certificados/nofa.action" target="_blank">Certificado Fuerzas Armadas</a></li>
+        <li>🪪 <a href="https://www.ecuadorlegalonline.com/consultas/registro-civil/consultar-cedulas/" target="_blank">Consulta de Cédulas</a></li>
       </ul>
     </div>
 
@@ -122,7 +126,8 @@
     <div class="card">
       <h2>Municipios</h2>
       <ul>
-        <li>🌐 <a href="https://www.loja.gob.ec/consulta" target="_blank">Consulta Deudas Municipio Loja</a></li>
+        <li>🌐 <a href="https://www.loja.gob.ec/consulta" target="_blank">Deudas Municipio Loja</a></li>
+        <li>📍 <a href="https://www.loja.gob.ec/ktastro/consulta" target="_blank">Catastro Municipio Loja</a></li>
       </ul>
     </div>
 
@@ -137,3 +142,4 @@
 
 </body>
 </html>
+
